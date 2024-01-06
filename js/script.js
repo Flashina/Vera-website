@@ -51,5 +51,6 @@ if (videoModal !== null) {
 
   videoModal.addEventListener("hide.bs.modal", () => {
     video.setAttribute("src", videoSrc);
+    
   });
 }
